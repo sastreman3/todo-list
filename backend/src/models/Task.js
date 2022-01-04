@@ -12,6 +12,10 @@ const taskSchema = new Schema(
       type: String,
       required: true,
     },
+    active: {
+      type: Boolean,
+      default: true
+    },
     done: {
       type: Boolean,
       default: false,
